@@ -1,0 +1,19 @@
+{
+  "package": {
+    "name": "mantl-hdfs",
+    "repo": "mantl-install-packages",
+    "subject": "asteris"
+  },
+  "version": {
+    "name": "0.1.4",
+    "released": "2015-09-22"
+  },
+  "files": [
+    {
+      "includePattern": "./(hdfs-mesos-(.*)\.tgz)",
+      "uploadPattern": "$1",
+      "matrixParams": { "override": 1 }
+    }
+  ],
+  "publish": true
+}
